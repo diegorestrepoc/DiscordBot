@@ -10,5 +10,5 @@ terraform {
 
 # Configure the AWS Provider using your aws profile for security reasons
 provider "aws" {
-  profile = "awsterraform"
+  region = "us-east-1"
 }
